@@ -1,0 +1,6 @@
+name: UpgradeBlocks
+version: 1.0.0
+main: me.drakyoid.upgradeblocks.UpgradeBlocks
+api-version: 1.14
+authors: [Drakyoid]
+description: Upgrade blocks by right clicking them with the block you want to upgrade to.
