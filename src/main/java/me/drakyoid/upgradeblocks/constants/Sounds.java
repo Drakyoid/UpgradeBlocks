@@ -6,8 +6,8 @@ import org.bukkit.entity.Player;
 
 public enum Sounds {
 
-    SUCCESS(Sound.BLOCK_ANVIL_LAND),
-    FAIL(Sound.BLOCK_NOTE_BLOCK_BASS);
+    SUCCESS(Sound.ANVIL_LAND),
+    FAIL(Sound.NOTE_BASS);
 
     private Sound sound;
 
@@ -18,7 +18,7 @@ public enum Sounds {
     public void playSound(Player player, int pitchMultiplier) {
         Location playerLocation = player.getLocation();
         if (pitchMultiplier == 0) pitchMultiplier = 1;
-        player.playSound(playerLocation, sound, 0.01F, (float) pitchMultiplier * 0.25F);
+        player.playSound(playerLocation, sound, 0.05F, (float) pitchMultiplier * 0.25F);
     }
 
 }

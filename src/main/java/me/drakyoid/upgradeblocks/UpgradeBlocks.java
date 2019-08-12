@@ -13,11 +13,6 @@ public final class UpgradeBlocks extends JavaPlugin {
         registerListeners();
     }
 
-    @Override
-    public void onDisable() {
-
-    }
-
     private void loadConfig() {
         getConfig().options().copyDefaults(true);
         saveConfig();

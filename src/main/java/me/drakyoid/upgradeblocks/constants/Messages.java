@@ -7,7 +7,9 @@ public enum Messages {
 
     PREFIX(ChatColor.translateAlternateColorCodes('&', "&r[&4Server&r] ")),
     WRONG_TIER(Messages.PREFIX + ChatColor.translateAlternateColorCodes('&',
-            "&cCan't upgrade this block, you can only upgrade one tier at a time!"));
+            "&cCan't upgrade this block, you can only upgrade one tier at a time!")),
+    NOT_ENOUGH(Messages.PREFIX + ChatColor.translateAlternateColorCodes('&',
+            "&cYou do not have enough materials, gather more or upgrade one at a time!"));
 
     private String message;
 
