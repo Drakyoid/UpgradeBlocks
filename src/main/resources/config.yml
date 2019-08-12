@@ -1,6 +1,5 @@
-Tool: WOOD_HOE
 Tiers:
-  - WOOD
+  - OAK_PLANKS
   - COBBLESTONE
   - IRON_BLOCK
   - DIAMOND_BLOCK

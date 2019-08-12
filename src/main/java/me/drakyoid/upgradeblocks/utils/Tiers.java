@@ -37,7 +37,6 @@ public class Tiers {
     }
 
     public Material getTier(int tierLevel) {
-        if (tierLevel < 0 || tierLevel > tiers.size() - 1) return null;
         return tiers.get(tierLevel);
     }
 
