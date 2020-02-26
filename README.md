@@ -19,5 +19,8 @@ Meaning when you right click an oak plank with a cobblestone it will upgrade, th
 
 **When adding or changing tiers in the config.yml, you must use the [spigot material enumerators](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)!**
 
+## Demo
+[![IMAGE ALT TEXT HERE](https://i.imgur.com/sDlyc0E.png)](https://vimeo.com/350515581)
+
 ## Download
 [SpigotMC](https://www.spigotmc.org/resources/upgradeblocks.69759/)
